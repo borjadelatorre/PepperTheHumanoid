@@ -1,0 +1,227 @@
+body{
+    background-color: #d8e4bc;
+}
+
+#portada{
+    width: 100%;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(16, 83, 240);
+}
+
+body {
+    font-size: 50%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header nav {
+    font-size: 1.5rem;
+    background-color: rgba(162, 177, 80, 0.233);
+    display: inline-block;
+}
+
+header nav ul {
+    padding: 1rem;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0.5rem 2rem;
+    text-align: center;
+}
+
+header nav ul li a {
+    color: red;
+}
+
+nav ul li a:hover {
+    font-size: 1.5rem;
+    color: rgb(12, 236, 12);
+    text-decoration: none;
+    background: #ef8354;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: left;
+}
+
+.video1{
+
+    width: 512;
+    height: 315;
+}
+
+.bloque{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bloque>div{
+    width: 50%;
+}
+
+.pepper{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.pepper1{
+    margin-right: 15px;
+}
+
+.pepper2{
+    margin-right: 15px;
+}
+
+h3{
+    font-size: 2rem;
+    text-align: left;
+}
+
+h4{
+    font: Bold 22px/23px Arial;
+    letter-spacing: 0px;
+    color: #4E5654;
+    margin: 20px 0px;
+    text-align: left;
+}
+
+.contenedor{
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.contenedor1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 35px;
+}
+
+.contenedor1>div{
+    width: 30%;
+}
+
+.contenedor2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 35px;
+}
+
+.contenedor2>div{
+    width: 30%;
+}
+
+.contenedor1_1{
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    width: 100%;
+}
+
+.contenedor2_1{
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    width: 100%;
+}
+
+#p_contenedor{
+    text-align: left;
+    font: 17px Arial;
+    letter-spacing: 0px;
+    color: #5F6765;
+}
+
+.descubrir{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 35px;
+}
+
+.descubrir>div{
+    padding-left: 2em;
+    text-align: center;
+    width: 30%;
+}
+
+#ref{
+    font: 17px Arial;
+}
+
+.form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    text-align: center;
+  }
+  
+  .form-register h4 {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+  footer{
+    font-size: 50px;
+    text-align: center;
+  }
